@@ -8,6 +8,17 @@ This project demonstrates object detection using the YOLOv8 model within a Flask
 - User-friendly web interface for image uploading and result display.
 - Saves annotated images for review.
 
+## Project Structure
+
+```
+YOLOv8-Image-Object-Detection/
+│
+├── app.py                   # Main application file
+├── requirements.txt         # Python dependencies
+├── templates/
+│   └── index.html           # HTML template for the web interface
+└── yolov8n.pt               # YOLOv8 model weights
+```
 ## Getting Started
 
 1. **Clone the repository:**
